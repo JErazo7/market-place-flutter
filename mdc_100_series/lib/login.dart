@@ -73,9 +73,10 @@ class _LoginPageState extends State<LoginPage> {
                     _passwordController.clear();
                   },
                 ),
-                // TODO: Add an elevation to NEXT (103)
+                //Add an elevation to NEXT
                 // TODO: Add a beveled rectangular border to NEXT (103)
                 RaisedButton(
+                  elevation: 8.0,
                   child: Text('NEXT'),
                   onPressed: () {
                     //Show the next page

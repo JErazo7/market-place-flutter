@@ -83,7 +83,8 @@ class HomePage extends StatelessWidget {
     return products.map((product) {
       return Card(
         clipBehavior: Clip.antiAlias,
-        // TODO: Adjust card heights (103)
+        //Adjust card heights
+        elevation: 0.0,
         child: Column(
           // Center items on the card
           crossAxisAlignment: CrossAxisAlignment.center,
